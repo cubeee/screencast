@@ -1,7 +1,6 @@
 #!/bin/sh
 FILE=$(mktemp "/tmp/XXXXXX.gif")
-echo $FILE
-echo "Recording to file '${FILE}', CTRL+D to stop"
+echo "Recording to file '${FILE}'"
 byzanz-window --cursor --rectangle $FILE
 echo "Uploading..."
 
